@@ -1,11 +1,10 @@
-package ;
+package SourcePackages.app;
+
 import java.util.*;
 
 import javax.swing.*; //importing swing class from extended java for frontend
-// import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
-// import javax.swing.event.MouseInputAdapter;
-// import javax.swing.plaf.FontUIResource;
+
 
 import java.awt.*; //color class
 import java.awt.event.*; //adding action listeners(event listeners)
@@ -17,7 +16,7 @@ public class Server extends JFrame implements ActionListener {
     JPanel textArea;
     Box vertical = Box.createVerticalBox();
 
-    Server() {
+    public Server() {
         // all of these are inbuilt methods of swing
 
         setLayout(null); // to set layout (images,grids,border etc)
